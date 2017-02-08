@@ -1,0 +1,61 @@
+/* For IE8 only start */
+@media \0screen {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+.col-lg-1 {
+	float: left;
+	width: 8.33333%;
+}
+.col-lg-2 {
+	float: left;
+	width: 16.6667%;
+}
+.col-lg-3 {
+	float: left;
+	width: 25%;
+}
+.col-lg-4 {
+	float: left;
+	width: 33.3333%;
+}
+.col-lg-5 {
+	float: left;
+	width: 41.6667%;
+}
+.col-lg-6 {
+	float: left;
+	width: 50%;
+}
+.col-lg-7 {
+	float: left;
+	width: 58.3333%;
+}
+.col-lg-8 {
+	float: left;
+	width: 66.6667%;
+}
+.col-lg-9 {
+	float: left;
+	width: 75%;
+}
+.col-lg-10 {
+	float: left;
+	width: 83.3333%;
+}
+.col-lg-11 {
+	float: left;
+	width: 91.6667%;
+}
+.col-lg-12 {
+	float: left;
+	width: 100%;
+}
+
+.container { width: 1280px; }
+}
+/* For IE8 only end*/
+
+/* For IE9 only start */
+@media all and (min-width:0\0) and (min-resolution: .001dpcm) {
+
+}
+/* For IE9 only end*/
