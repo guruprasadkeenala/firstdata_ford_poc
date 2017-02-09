@@ -1,0 +1,28 @@
+.header-strip{height: 105px; }
+.navbar-default-custom{margin-top:12px;}
+.navbar-default.navbar-default-custom .navbar-nav{font-size: 1.143em;}
+.navbar-default.navbar-default-custom .navbar-nav > li > a{padding:25px 10px;}
+.user-info{top: 29px;}
+.user-info .icon-user, .user-info .icon-location, .user-info .icon-my-order, .user-info .icon-cart{font-size: 1.143em;}
+.user-info .icon-share, .user-info .icon-search{font-size: 1.286em;}
+
+/*modal */
+.close.icon-Close{font-size: 2.786em;}
+
+/*Edit Credit card section statrs*/
+.modal-header.modal-pad{ padding-bottom:15px;}
+.modal-body.modal-pad{ padding-top:15px;}
+.modal-pad{padding: 30px 40px;}
+.modal-title-text{font-size: 1.714em;}
+.modal-title-page-of{font-size: 14px; padding-top: 14px;}
+/*Edit Credit card section ends*/
+
+/*forms*/
+.bootstrap-select.btn-group .btn{min-height:50px;}
+.bootstrap-select.btn-group .dropdown-toggle .icon-Down-Arrow{font-size: 2.143em;}
+.form-control{height:50px;}
+.icon-Info.icon-Info24, .icon-Tick.icon-Tick24{font-size: 1.714em;}
+
+/*footer brands logo*/
+.brandslogo-b{border-right:1px solid #bebebe;}
+.brand-text{font-size: 1.571em; height: 70px;}
