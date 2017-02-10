@@ -1,0 +1,68 @@
+@media (max-width:767px) {
+  /*Header starts*/
+  .header-strip{height: 70px; }
+  .navbar-default-custom{margin-top:5px;}
+  .navbar-default.navbar-default-custom .navbar-nav{font-size: 1.286em;}
+  .brand-logo-centered{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 12px;
+    text-align: center;
+    z-index: 0;
+  }
+  .brand-logo-centered img{width: 100px;}
+  .navbar-default.navbar-default-custom .navbar-nav > li > a{padding:25px 15px 25px 0;}
+  .navbar-default-custom .nav > li{border-bottom: 1px solid #e3e3e3;}
+
+  .user-info{top: 20px;}
+  .user-info .icon-user, .user-info .icon-location, .user-info .icon-my-order, .user-info .icon-cart, .user-info .icon-share{font-size: 1.286em;}
+  .user-info .icon-search{font-size: 2.143em;}
+  .user-info li{margin-right:0; padding-right: 0;}
+  /*Header ends*/
+
+  /*Common Styles*/
+  .p0-m{padding: 0;}
+  .p15-m{padding: 15px;}
+  .pb10-m{padding-bottom: 10px;}
+  .mb15-m{margin-bottom: 15px;}
+
+  /*Button */
+  .btn { width:100%; white-space: normal;}
+
+  /*modal */
+  .close.icon-Close{font-size:2.214em;}
+  .modal .modal-dialog{margin: 0;}
+
+  /*Edit Credit card section statrs*/
+  .modal-header.modal-pad{ padding-bottom:15px;}
+  .modal-body.modal-pad{ padding-top:10px;}
+  .modal-pad{padding:21px 15px;}
+  .modal-title-text{font-size: 1.286em;}
+  .modal-title-page-of{font-size: 12px; padding-top: 8px;}
+  /*Edit Credit card section ends*/
+
+  /*forms*/
+  .bootstrap-select.btn-group .btn{min-height:44px;}
+  .bootstrap-select.btn-group .dropdown-toggle .icon-Down-Arrow{font-size: 1.214em; top: 36%; right: 10px;}
+  .bootstrap-select.btn-group .dropdown-toggle .filter-option { font-size: 0.857em; padding-top: 3px;}
+  .form-control{height:44px; font-size: 0.857em;}
+  .icon-Info.icon-Info24, .icon-Tick.icon-Tick24{font-size: 1.286em;}
+
+  /*footer brands logo*/
+  .brand-text{
+    font-size: 1.571em;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+  }
+  .brandslogo-b{border-right:none; border-bottom:1px solid #bebebe;}
+  .list-shares span{display: block; width: 100%; padding-bottom: 10px;}
+  .list-shares.chatnow-b{ border-bottom: 1px solid #304b5f; padding-bottom: 15px; margin-bottom: 20px; text-align: left;}
+  .list-shares span.chatnow{ display: inline; width:auto;}
+
+  .copyright-links {background: #252525;}
+  .copyright-links a{display: block;}
+
+}

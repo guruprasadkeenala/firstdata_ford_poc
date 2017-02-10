@@ -1,0 +1,62 @@
+@media (min-width: 768px) and (max-width:1024px) {
+  /*Header starts*/
+  .header-strip{height: 75px; }
+  .navbar-default-custom{margin-top:5px;}
+  .navbar-default.navbar-default-custom .navbar-nav{font-size: 1.286em;}
+  .brand-logo-centered{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 12px;
+    text-align: center;
+    z-index: 0;
+  }
+  .brand-logo-centered img{width: 100px;}
+  .navbar-default.navbar-default-custom .navbar-nav > li > a{padding:25px 15px 25px 0;}
+  .navbar-default-custom .nav > li{border-bottom: 1px solid #e3e3e3;}
+  .navbar-default-custom .navbar-collapse{padding:0;}
+  .user-info{top: 20px;}
+  .user-info .icon-user, .user-info .icon-location, .user-info .icon-my-order, .user-info .icon-cart{font-size: 1.143em;}
+  .user-info .icon-share, .user-info .icon-search{font-size: 1.286em;}
+  /*Header ends*/
+
+  .p0-t{padding: 0;}
+
+  /*modal */
+  .close.icon-Close{font-size: 2.786em;}
+
+  /*Edit Credit card section statrs*/
+  .modal-header.modal-pad{ padding-bottom:15px;}
+  .modal-body.modal-pad{ padding-top:15px;}
+  .modal-pad{padding: 30px 40px;}
+  .modal-title-text{font-size: 1.714em;}
+  .modal-title-page-of{font-size: 14px; padding-top: 14px;}
+  /*Edit Credit card section ends*/
+
+  /*forms*/
+  .bootstrap-select.btn-group .btn{min-height:50px;}
+  .bootstrap-select.btn-group .dropdown-toggle .icon-Down-Arrow{font-size: 2.143em;}
+  .form-control{height:50px;}
+  .icon-Info.icon-Info24, .icon-Tick.icon-Tick24{font-size: 1.714em;}
+
+  /*footer brands logo*/
+  .brand-text{font-size: 1.429em; height: 144px;}
+  .brandslogo-b{border-right:none;}
+  .footer-link-text{font-size: 0.857em;}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+  /*Header starts*/
+  .header-strip{height: 92px; }
+  .navbar-default.navbar-default-custom .navbar-nav{font-size: 1.143em;}
+  .navbar-default.navbar-default-custom .navbar-nav > li > a{padding-right:5px;}
+  .user-info{top: 29px;}
+  .user-info li{margin-right: 0px;}
+  .user-info .icon-user, .user-info .icon-location, .user-info .icon-my-order, .user-info .icon-cart {font-size: 1em;}
+  .navbar-default-custom .nav > li{border-bottom: none;}
+  /*Header ends*/
+  /*footer brands logo*/
+  .brand-text{font-size: 1.571em; height: 57px;}
+  .brandslogo-b{border-right:1px solid #bebebe;}
+  .footer-link-text{font-size: 0.929em;}
+}
